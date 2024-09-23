@@ -61,7 +61,6 @@ function displayResults(data) {
 
         resultItem.innerHTML = `
             <div class="metadata">
-
               <p><span class="label">Entry ID:</span> ${item.entry_id}</p>
               <p><span class="label">Start Time:</span> ${startTime}</p>
               <p><span class="label">End Time:</span> ${endTime}</p>
@@ -87,7 +86,7 @@ function displayResults(data) {
 
             kalturaPlayer.loadMedia({
                 entryId: item.entry_id,  // Use the entryId from the response
-                ks: "djJ8NTgzNzEzMnxg1Xrx6W91DwsUg9ENFs227xs6B-w37HZYmcAXbCl2jyHSzShbYsrKZz-8xLp9M88KMpG4dMAsdrJAZkEFOJVsoYh9fxKBgvo9blHw3bJdTQhSVj2H0rvxnfKf7zobqHxYpj8lAWixD9x5Vyo78taNf8mSCMslnWM8cJQs4hipAQ" // Insert a valid KS if needed
+                ks: "djJ8NTgzNzEzMnzo8u5kkdJogTv9sx0g24_CdU-qnDQ1UmvUCm-IQucyl-yw0gwWCNC7cj6efJrOz60IyIIzLFm0B9HVtJDC2PRpsoMCqjilJmYbc_3mZlCLDZ1wl1W5BbkxeKrA9Z9XP_D6BzrUfl4gvnygEvBDUmb55_XFRc66xxTEc09tt8foug" // Insert a valid KS if needed
             })
         } catch (e) {
             console.error(e.message);

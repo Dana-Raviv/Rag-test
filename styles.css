@@ -64,12 +64,10 @@
         main {
             display: flex;
             height: 100%;
-            /*max-width: 680px;*/
             margin: auto;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            gap: 48px;
             align-self: stretch;
         }
 
